@@ -26,6 +26,52 @@ WebUI.click(findTestObject('Object Repository/Page_100 Free SEO Tools - CopyChec
 WebUI.setText(findTestObject('Object Repository/Page_Plagiarism Checker - 100 Free Plagiari_6cbd26/textarea_Total Character_text'), 
     'lorem ipsum lorem ipsum lorem ipsum lorem ipsm lorem ipsum')
 
+WebUI.click(findTestObject('Object Repository/Page_Plagiarism Checker - 100 Free Plagiari_6cbd26/div_id(katalon-rec_elementInfoDiv)'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Plagiarism Checker - 100 Free Plagiari_6cbd26/input_Total Character_submit'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Plagiarism Checker - 100 Free Plagiari_6cbd26/a_Reverse Image Search'), 
+    FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Reverse Image Search  Find Similar Ima_6bb4f0/img'))
+
+WebUI.click(findTestObject('Object Repository/Page_Reverse Image Search  Find Similar Ima_6bb4f0/a_PDF Editor'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Start With Blank PDF'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/svg_Sign_MuiSvgIcon-root MuiSvgIcon-fontSiz_a04bd5'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_New Signature'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Draw'), FailureHandling.CONTINUE_ON_FAILURE)
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/canvas_Upload Image_signature-pad'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/canvas_Upload Image_signature-pad'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/canvas'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/svg_Apply changes_MuiSvgIcon-root MuiSvgIco_dacf22'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Download'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Back to editing'))
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://copychecker.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_100 Free SEO Tools - CopyChecker.com/a_Plagiarism Checker'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Plagiarism Checker - 100 Free Plagiari_6cbd26/textarea_Total Character_text'), 
+    'lorem ipsum lorem ipsum lorem ipsum lorem ipsm lorem ipsum')
+
 WebUI.click(findTestObject('Object Repository/Page_Plagiarism Checker - 100 Free Plagiari_6cbd26/div_id(katalon-rec_elementInfoDiv)'))
 
 WebUI.click(findTestObject('Object Repository/Page_Plagiarism Checker - 100 Free Plagiari_6cbd26/input_Total Character_submit'))
@@ -53,6 +99,47 @@ WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - Copy
 WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/canvas'))
 
 WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/svg_Apply changes_MuiSvgIcon-root MuiSvgIco_dacf22'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Download'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Back to editing'))
+
+WebUI.closeBrowser()
+
+WebUI.openBrowser('')
+
+WebUI.navigateToUrl('https://copychecker.com/')
+
+WebUI.click(findTestObject('Object Repository/Page_100 Free SEO Tools - CopyChecker.com/a_PDF Editor'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/span_Start With Blank PDF'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/div_Insert page here_textLayer'))
+
+WebUI.setText(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/div_this is a test textDummy text'), 
+    'this is a test textDummy text')
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/div_FontColorthis is a test textDummy text'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/div_this is a test textDummy textFontColorT_0c0649'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Sign'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_New Signature'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Draw_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Upload Image_button'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Upload Image_button'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/canvas_Upload Image_signature-pad_1'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/canvas'))
+
+WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Apply changes'))
 
 WebUI.click(findTestObject('Object Repository/Page_Free Online PDF Editor - CopyChecker.com/button_Download'))
 
